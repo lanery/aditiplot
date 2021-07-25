@@ -12,6 +12,7 @@ PACKAGES = [
 ]
 INSTALL_REQUIRES = [
     'numpy',
+    'pandas',
     'matplotlib',
     'seaborn',
 ]
