@@ -1,3 +1,4 @@
+import seaborn as sns
 
 
 def deorganize(data, x=None, y=None, hue=None, size=None, style=None, **kwargs):
@@ -122,3 +123,18 @@ def deorganize(data, x=None, y=None, hue=None, size=None, style=None, **kwargs):
     kwargs['style'] = style
 
     return data, kwargs
+
+
+def plot(data, **kwargs):
+    """Make an Aditi plot!"""
+
+    # Deorganize
+    data, kwargs = deorganize(data, **kwargs)
+
+    # Make call to seaborn relplot
+    g = sns.relplot(data=data, legend=False, **kwargs)
+
+    # Axis formatting
+    g.set(xticklabels=[])
+    g.set(xlabel=None)
+    g.set(ylabel=None)
