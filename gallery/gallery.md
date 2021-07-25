@@ -1,7 +1,3 @@
-# aditiplot
-Applies an Aditi filter to your plots for an improved clarity in your incredibly confusing multidimensional datasets.
-
-
 ## `aditiplot` example gallery
 
 
@@ -125,7 +121,7 @@ g = sns.relplot(x='bill_length_mm',
 
 
     
-![png](./gallery/output_6_0.png)
+![png](output_6_0.png)
     
 
 
@@ -145,7 +141,7 @@ aditi.plot(penguins)
 
 
     
-![png](./gallery/output_8_1.png)
+![png](output_8_1.png)
     
 
 
@@ -257,7 +253,7 @@ sns.relplot(
 
 
     
-![png](./gallery/output_12_0.png)
+![png](output_12_0.png)
     
 
 
@@ -270,7 +266,7 @@ aditi.plot(tips, hue='size');
 
 
     
-![png](./gallery/output_14_0.png)
+![png](output_14_0.png)
     
 
 
@@ -369,7 +365,7 @@ sns.relplot(
 
 
     
-![png](./gallery/output_18_0.png)
+![png](output_18_0.png)
     
 
 
@@ -382,6 +378,6 @@ aditi.plot(fmri, kind='line');
 
 
     
-![png](./gallery/output_20_0.png)
+![png](output_20_0.png)
     
 
