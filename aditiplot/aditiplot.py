@@ -38,14 +38,6 @@ def deorganize(data, x=None, y=None, hue=None, size=None, style=None, **kwargs):
         Dictionary of plotting parameters to pass through to some underlying
         plotting function
     """
-
-    # Extract kwargs
-    x = kwargs.pop('x', None)
-    y = kwargs.pop('y', None)
-    hue = kwargs.pop('hue', None)
-    size = kwargs.pop('size', None)
-    style = kwargs.pop('style', None)
-
     # Get data types of input dataset
     dtypes = data.dtypes
     # Remove used dimensions from dtypes
