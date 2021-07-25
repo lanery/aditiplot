@@ -138,3 +138,5 @@ def plot(data, **kwargs):
     g.set(xticklabels=[])
     g.set(xlabel=None)
     g.set(ylabel=None)
+
+    return g
